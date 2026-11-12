@@ -5,10 +5,11 @@
 @section Scripts{
     <script>
         // TODO: Écrire votre script
+        $.get('/Home/Partielle'),{"id": id}
     </script>
 }
 
-<div class="text-center">
+<div class="text-center" id="@Model.Id">
     <h1 class="display-4">Welcome</h1>
     <!--Utiliser ce div pour afficher la 1ere vue partielle-->
     <div></div>
